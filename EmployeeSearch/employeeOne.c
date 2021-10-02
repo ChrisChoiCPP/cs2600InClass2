@@ -20,6 +20,7 @@ PtrToEmployee searchEmployeeByName(PtrToConstEmployee ptr, int tableSize, char *
      return NULL;
 }
 
+//code I added VV
 PtrToEmployee searchEmployeeByPhone(PtrToConstEmployee ptr, int tableSize, char * targetPhoneNumber) {
     const PtrToConstEmployee endPtr = ptr + tableSize;
     for (; ptr < endPtr; ptr++)
